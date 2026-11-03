@@ -12,3 +12,5 @@ Versionamento: o projeto será mantido via Git no repositório da Organização 
 Prévia/envio: abra 2026-10/index.html no navegador com acesso à internet. Para envio, importe esse HTML na ferramenta de e-mail. As imagens e fontes externas dependem dos serviços hospedados.
 
 Pendência existente: os links Privacidade e Descadastrar ainda usam example.com e precisam dos destinos finais antes do disparo.
+
+Nome de arquivo de imagem: sem espaço, sem acento, só minúsculas, números, hífen e ponto (ex.: mk-fashion.png). O Zoho Campaigns descarta no import a imagem cuja URL tem %20 ou %C3.., e o e-mail sai com src vazio (teste de 02/11/2026: 9 de 14 imagens sumiram). Confira antes de importar: python3 scripts/woow.py auditar-html --html 2026-10/index.html (skill woow-news).
