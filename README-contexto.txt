@@ -11,6 +11,6 @@ Versionamento: o projeto será mantido via Git no repositório da Organização 
 
 Prévia/envio: abra 2026-10/index.html no navegador com acesso à internet. Para envio, importe esse HTML na ferramenta de e-mail. As imagens e fontes externas dependem dos serviços hospedados.
 
-Rodapé: Privacidade aponta para https://metakosmos.com.br/politica-de-privacidade e Descadastrar usa a merge tag $[UNSUBSCRIBE]$ do Zoho Marketing Automation, que vira o link real de descadastro no envio (sem ela o ZMA acrescenta um "Unsubscribe" próprio ao rodapé). Em edição nova, manter os dois.
+Rodapé: Privacidade aponta para https://metakosmos.com.br/politica-de-privacidade e Descadastrar usa a merge tag $[LI:UNSUBSCRIBE]$ do Zoho Marketing Automation, que vira o link real de descadastro no envio (sem ela o ZMA acrescenta um "Unsubscribe" próprio ao rodapé). Em edição nova, manter os dois.
 
 Nome de arquivo de imagem: sem espaço, sem acento, só minúsculas, números, hífen e ponto (ex.: mk-fashion.png). O Zoho Campaigns descarta no import a imagem cuja URL tem %20 ou %C3.., e o e-mail sai com src vazio (teste de 02/11/2026: 9 de 14 imagens sumiram). Confira antes de importar: python3 scripts/woow.py auditar-html --html 2026-10/index.html (skill woow-news).
